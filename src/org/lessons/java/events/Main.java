@@ -24,7 +24,7 @@ public class Main {
         System.out.println("Il nuovo evento è un concerto? (y/n)");
 
         /******************************************************************************************************
-         * *********************************************** CONCERTO ****************************************
+          *********************************************** CONCERTO ****************************************
          ******************************************************************************************************/
 
         if (scanner.nextLine().equalsIgnoreCase("y")) {
@@ -108,7 +108,7 @@ public class Main {
                     System.out.println("------------------------");
                 }
             }
-            // Chiedereil numero di posti totali disponibili lanciando una eccezione se è minore o uguale a 0
+            // Chiedere il numero di posti totali disponibili lanciando una eccezione se è minore o uguale a 0
             int postiTotali = 0;
 
             while (true) {
@@ -269,7 +269,7 @@ public class Main {
                 }
             }
 
-            // Chiedereil numero di posti totali disponibili lanciando una eccezione se è minore o uguale a 0
+            // Chiedere il numero di posti totali disponibili lanciando una eccezione se è minore o uguale a 0
             int postiTotali = 0;
 
             while (true) {
