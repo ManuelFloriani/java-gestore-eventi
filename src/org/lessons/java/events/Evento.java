@@ -74,6 +74,10 @@ public class Evento {
 
     // METODO PRENOTA
     public void prenota(int posti) {
+        if (posti <= 0) {
+            throw new IllegalArgumentException("Il numero di posti da prenotare deve essere maggiore di zero.");
+        }
+
         postiPrenotati += posti;
     }
 
